@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+    <!-- SpringWAS 컨테이너가 로드할 컴포넌트 경로 -->
+    <context:component-scan base-package="team.project.hotel"/>
+
+    <!-- JDBC properties 연결 -->
+    <!-- <util:properties id="jdbc" location="file:src/main/webapp/WEB-INF/spring/jdbc.properties"/>
+    <util:properties id="jdbc" location="classpath:jdbc.properties"/>
+     -->
+
+    <!-- HikariCP JDBC 연결
+    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+        <property name="driverClassName" value="#{jdbc['dcn']}"/>
+        <property name="jdbcUrl" value="#{jdbc['url']}"/>
+        <property name="username" value="#{jdbc['user']}"/>
+        <property name="password" value="#{jdbc['pass']}"/>
+    </bean>
+    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+        <property name="driverClassName" value="org.mariadb.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mariadb://toy-mariadb.cwkdq9ftbcnp.ap-northeast-2.rds.amazonaws.com:3306/Hotel"/>
+        <property name="username" value="hotel"/>
+        <property name="password" value="hotel"/>
+    </bean>
+     -->
+
+
+    <!-- HIkariCP configuration
+    <bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+        <constructor-arg ref="hikariConfig"/>
+    </bean>
+     -->
+
+    <!-- myBatis 설정\
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="mapperLocations" value="classpath*:mapper/*Mapper.xml"/>
+    </bean>
+
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg ref="sqlSessionFactory" index="0" />
+    </bean>
+     -->
+</beans>
