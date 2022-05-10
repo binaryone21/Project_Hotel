@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class ovvController {
+public class OvvController {
 
     @GetMapping("/din/fdd/ovvList")
     public String ovvList() {

@@ -1,4 +1,4 @@
 package team.project.hotel.din.fdd.ovv;
 
-public class ovvDto {
+public class OvvService {
 }
