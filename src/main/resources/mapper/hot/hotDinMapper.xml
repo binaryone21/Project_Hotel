@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="hdMap">
+
+    <!-- Hotel Dining 목록조회 -->
+    <select id="arraysHD" statementType="PREPARED"
+            parameterType="String"
+            resultType="team.project.hotel.hot.din.HotDinDto">
+        select
+            THD_PK
+                from T_HOTEL_DINING
+    </select>
+
+    <!-- Hotel Dining 상세조회 -->
+    <select id="selectHD" statementType="PREPARED"
+            parameterType="String"
+            resultType="team.project.hotel.hot.din.HotDinDto">
+        select
+            *
+                from T_HOTEL_DINING
+    </select>
+
+</mapper>

@@ -11,8 +11,8 @@
     </definition>
 
     <!-- .tiles 로 호출 -->
-    <definition extends="base" name="*/*/*/*.tiles">
-        <put-attribute name="main" value="/WEB-INF/views/{1}/{2}/{3}/{4}.jsp"/>
+    <definition extends="base" name="*/*/*.tiles">
+        <put-attribute name="main" value="/WEB-INF/views/{1}/{2}/{3}.jsp"/>
     </definition>
 
 </tiles-definitions>

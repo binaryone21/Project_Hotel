@@ -1,0 +1,39 @@
+html {
+    font-size: 13px;
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+
+/* a */
+a {
+    text-decoration: none;
+}
+* a:link, * a:focus, * a:active, * a:hover {
+    color: black;
+    background: none;
+    text-decoration: none;
+}
+
+/* button */
+* button:focus, * button:active, * button:hover {
+    outline: none;
+}
+
+/* input */
+* input:focus, * input:active, * input:hover {
+    outline: none;
+}
+
+/* select */
+* select:focus, * select:active, * select:hover {
+    outline: none;
+}
+
+/* list */
+ul, ol {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
