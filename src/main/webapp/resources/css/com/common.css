@@ -1,0 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+.com_nv {
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+}
+.com_bd {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+}

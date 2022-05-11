@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> 파라다이스시티 호텔 프로젝트 </title>
     <Link rel="stylesheet" href="/css/com/normalize.css">
+    <link rel="stylesheet" href="/css/com/common.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
