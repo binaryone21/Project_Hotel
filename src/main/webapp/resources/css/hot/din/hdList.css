@@ -1,0 +1,17 @@
+.com_nv h1 {
+    font-size: 18px;
+    float: left;
+}
+
+.com_nv ul {
+    float: left;
+    list-style: none;
+}
+
+.com_nv li {
+    float: left;
+}
+
+.com_nv a {
+    font-size: 14px;
+}
