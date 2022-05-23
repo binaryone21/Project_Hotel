@@ -1,0 +1,97 @@
+/* 네비게이션 css *********************************************/
+.com_nv h1 {
+    font-size: 18px;
+    float: left;
+    margin: 10px 20px 0;
+    line-height: 50px;
+    color: #333;
+}
+
+.com_nv ul {
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    margin: 25px 0 0 0;
+}
+
+.com_nv li {
+    float: left;
+    padding-right: 15px;
+}
+
+.com_nv a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+}
+
+.com_nv li.on a {
+    color: #9c836a;
+}
+
+/* 컨텐츠 헤더 *********************************************/
+.hd_header {
+    margin: 50px 0;
+}
+
+.hd_header_title {
+    color: #A9836A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hd_header_sub {
+    color: #666;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+/* 이미지 슬라이드 *********************************************/
+.hd_list {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.hd_list li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.hd_list li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.hd_list img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.prev {
+    background: url("../../../img/com/btn_arrow.png") no-repeat;
+    float: left;
+    width: 32px;
+    height: 17px;
+    
+}
+
+.next {
+    background: url("../../../img/com/btn_arrow.png") no-repeat 0 -17px;
+    float: right;
+    width: 32px;
+    height: 17px;
+}

@@ -2,68 +2,97 @@
 <%@ taglib prefix="c"	uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" 	uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<link rel="stylesheet" href="/css/hot/din/hdList.css">
 
 <%-- HOTEL - DINING - Overview - List --%>
 
-<nav>
-    대충 로고 / HOTEL / ROOM / DINING / SUBSIDIARY / OTHER
+<nav class="com_nv">
+    <h1>FINE DINE&DRINK</h1>
+    <ul>
+        <li><a href="hd_nav">OVERVIEW</a></li>
+        <li><a href="hd_nav">HOTEL PARADISE</a></li>
+    </ul>
 </nav>
 
 <section class="com_bd">
-    <%-- 상단 배너 --%>
-    <article class="hd_list_sample1">
-        <div class="hd_list_sample2">
-            Overview List 페이지입니다.
+    <%-- Dinning 소개 --%>
+    <article class="hd_header">
+        <div class="hd_header_title">
+            FINE DINE & DRINK
+        </div>
+        <div class="hd_header_sub">
+            최상급 식자재를 사용한 파인 다이닝에서 선보이는
+            <br>
+            미식의 세계로 초대합니다.
         </div>
     </article>
 
     <%--  리스트 --%>
     <article>
-        <pre>
-        네이밍 컨벤션
-
-        1. 공통 규칙
-            변수명 첫 시작에 숫자, 특수문자, 대문자의 사용은 지양한다.
-
-        2. 폴더 구조
-            폴더는 되도록 3글자로 축약한다.
-            또한, 풀네임이 무엇인지 txt 파일 명으로 적어놓는다.
-
-        3. CSS
-            css 파일은 jsp 개수 + 1개로 한다.
-                ovv.css
-                ovv_list.css
-                ovv_view.js
-
-            css 에서 사용할 .클래스 명, #아이디 명은 언더스코어표기 방식으로 한다.
-                class="list_sample"
-                id="list_sample"
-
-            css 에서 사용할 변수명들은 앞에 좌표를 붙여준다.
-                /din /fdd /ovv /list
-                class="dfo_list_sample"
-                class="dfo_list_title"
-                class="dfo_list_title_sample"
-                class="dfo_list_titleSample"
-
-
-        4. js
-            js 파일은 jsp 개수 + 1개로 한다.
-                ovv.js
-                ovv_list.js
-                ovv_view.js
-
-            js 에서 사용할 .클래스 명, #아이디 명은 카멜표기 방식으로 한다.
-                class="listSample"
-                id="listSample"
-
-            js 에서 사용할 변수명들은 앞에 좌표를 붙이지 않아도 된다.
-                id="listSample"
-                id="dfo_list_listSample"
-                id="dfo_list_titleSample"
-
-
-        </pre>
+        <div class="hd_list">
+            <div class="hd_list_item">
+                <div class="hd_list_img">
+                    <a href="#">
+                        <img src="/img/hot/din/onThePlate.jpg">
+                    </a>
+                </div>
+                <div class="hd_list_info">
+                    <h2 class="hd_list_info_title">
+                        ON THE PLATE
+                    </h2>
+                    <p class="hd_list_info_sub">
+                        유럽, 뉴욕, 상해의 최신 Trend를 반영,<br>다섯가지 Station으로 구성된 Premium Buffet Restaurant
+                    </p>
+                    <a class="hd_list_info_btn" href="#">예약하기</a>
+                </div>
+            </div>
+            <div class="hd_list_item">
+                <div class="hd_list_img">
+                    <a href="#">
+                        <img src="/img/hot/din/laScala.jpg">
+                    </a>
+                </div>
+                <div class="hd_list_info">
+                    <h2 class="hd_list_info_title">
+                        LA SCALA
+                    </h2>
+                    <p class="hd_list_info_sub">
+                        밀라노의 감성으로 이탈리아 본연의 맛을 추구하는<br>Italian Gourmet Restaurant
+                    </p>
+                    <a class="hd_list_info_btn" href="#">예약하기</a>
+                </div>
+            </div>
+            <div class="hd_list_item">
+                <div class="hd_list_img">
+                    <a href="#">
+                        <img src="/img/hot/din/raku.jpg">
+                    </a>
+                </div>
+                <div class="hd_list_info">
+                    <h2 class="hd_list_info_title">
+                        RAKU
+                    </h2>
+                    <p class="hd_list_info_sub">
+                        다양한 장르의 일식을 창의적으로 재해석한 메뉴를<br>합리적인 가격에 즐길 수 있는 트렌디한 일식의 진수
+                    </p>
+                </div>
+            </div>
+            <div class="hd_list_item">
+                <div class="hd_list_img">
+                    <a href="#">
+                        <img src="/img/hot/din/imperialTreasure.jpg">
+                    </a>
+                </div>
+                <div class="hd_list_info">
+                    <h2 class="hd_list_info_title">
+                        IMPERIAL TREASURE
+                    </h2>
+                    <p class="hd_list_info_sub">
+                        한국 최초로 파라다이스시티에서만 맛 볼 수 있는<br>정통 고급 광동식 중국요리의 대명사, IMPERIAL TREASURE
+                    </p>
+                </div>
+            </div>
+        </div>
     </article>
 </section>
 
