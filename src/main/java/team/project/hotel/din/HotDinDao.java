@@ -1,4 +1,4 @@
-package team.project.hotel.hot.din;
+package team.project.hotel.din;
 
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package team.project.hotel.hot.din;
+package team.project.hotel.din;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package team.project.hotel.hot.rom;
+package team.project.hotel.hot.par.rom;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package team.project.hotel.hot.sub;
+package team.project.hotel.hot.par.sub;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
