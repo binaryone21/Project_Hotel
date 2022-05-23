@@ -32,7 +32,9 @@
         <div class="hd_list">
             <div class="hd_list_item">
                 <div class="hd_list_img">
-                    <img src="/img/hot/din/onThePlate.jpg">
+                    <a href="#">
+                        <img src="/img/hot/din/onThePlate.jpg">
+                    </a>
                 </div>
                 <div class="hd_list_info">
                     <h2 class="hd_list_info_title">
@@ -46,7 +48,9 @@
             </div>
             <div class="hd_list_item">
                 <div class="hd_list_img">
-                    <img src="/img/hot/din/laScala.jpg">
+                    <a href="#">
+                        <img src="/img/hot/din/laScala.jpg">
+                    </a>
                 </div>
                 <div class="hd_list_info">
                     <h2 class="hd_list_info_title">
@@ -56,6 +60,36 @@
                         밀라노의 감성으로 이탈리아 본연의 맛을 추구하는<br>Italian Gourmet Restaurant
                     </p>
                     <a class="hd_list_info_btn" href="#">예약하기</a>
+                </div>
+            </div>
+            <div class="hd_list_item">
+                <div class="hd_list_img">
+                    <a href="#">
+                        <img src="/img/hot/din/raku.jpg">
+                    </a>
+                </div>
+                <div class="hd_list_info">
+                    <h2 class="hd_list_info_title">
+                        RAKU
+                    </h2>
+                    <p class="hd_list_info_sub">
+                        다양한 장르의 일식을 창의적으로 재해석한 메뉴를<br>합리적인 가격에 즐길 수 있는 트렌디한 일식의 진수
+                    </p>
+                </div>
+            </div>
+            <div class="hd_list_item">
+                <div class="hd_list_img">
+                    <a href="#">
+                        <img src="/img/hot/din/imperialTreasure.jpg">
+                    </a>
+                </div>
+                <div class="hd_list_info">
+                    <h2 class="hd_list_info_title">
+                        IMPERIAL TREASURE
+                    </h2>
+                    <p class="hd_list_info_sub">
+                        한국 최초로 파라다이스시티에서만 맛 볼 수 있는<br>정통 고급 광동식 중국요리의 대명사, IMPERIAL TREASURE
+                    </p>
                 </div>
             </div>
         </div>

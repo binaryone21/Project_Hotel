@@ -1,21 +1,36 @@
+/* 네비게이션 css *********************************************/
 .com_nv h1 {
     font-size: 18px;
     float: left;
+    margin: 10px 20px 0;
+    line-height: 50px;
+    color: #333;
 }
 
 .com_nv ul {
     float: left;
-    list-style: none;
+    list-style-type: none;
+    text-align: center;
+    margin: 25px 0 0 0;
 }
 
 .com_nv li {
     float: left;
+    padding-right: 15px;
 }
 
 .com_nv a {
     font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
 }
 
+.com_nv li.on a {
+    color: #9c836a;
+}
+
+/* 컨텐츠 헤더 *********************************************/
 .hd_header {
     margin: 50px 0;
 }
@@ -23,7 +38,7 @@
 .hd_header_title {
     color: #A9836A;
     font-size: 16px;
-    font-weight: 450;
+    font-weight: 500;
 }
 
 .hd_header_sub {
@@ -33,6 +48,7 @@
     margin: 20px 0;
 }
 
+/* list css *********************************************/
 .hd_list {
     margin-left: -10%
 }
