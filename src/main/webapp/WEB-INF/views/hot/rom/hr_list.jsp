@@ -12,8 +12,7 @@
     <article class="hr_header">
         <div class="hr_header_title">객실</div>
         <div class="hr_header_sub">
-            호텔 파라다이스만의 예술적 품격을 갖춘 객실에서
-            <br>
+            호텔 파라다이스만의 예술적 품격을 갖춘 객실에서<br>
             격이 다른 휴식과 여유를 경험해 보세요.
         </div>
     </article>
