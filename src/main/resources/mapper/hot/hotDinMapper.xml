@@ -6,7 +6,7 @@
     <!-- Hotel Dining 목록조회 -->
     <select id="arraysHD" statementType="PREPARED"
             parameterType="String"
-            resultType="team.project.hotel.din.HotDinDto">
+            resultType="team.project.hotel.din.fdd.DinFddDto">
         select
             THD_PK
                 from T_HOTEL_DINING
@@ -15,7 +15,7 @@
     <!-- Hotel Dining 상세조회 -->
     <select id="selectHD" statementType="PREPARED"
             parameterType="String"
-            resultType="team.project.hotel.din.HotDinDto">
+            resultType="team.project.hotel.din.fdd.DinFddDto">
         select
             *
                 from T_HOTEL_DINING

@@ -1,11 +1,11 @@
-package team.project.hotel.din;
+package team.project.hotel.din.fdd;
 
 import lombok.Data;
 
 @Data
-public class HotDinDto {
+public class DinFddDto {
 
-    private String hd_pk;
+    private String df_pk;
 
     /**
      * Dto는 화면에 보여주게 될 VO를 처리합니다.

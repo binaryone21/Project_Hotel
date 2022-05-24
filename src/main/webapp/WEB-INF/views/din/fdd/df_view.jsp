@@ -2,9 +2,9 @@
 <%@ taglib prefix="c"	uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" 	uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<link rel="stylesheet" href="/css/hot/din/hdView.css">
+<link rel="stylesheet" href="/css/din/fdd/dfView.css">
 <script src="/js/com/responsiveslides.min.js"></script>
-<script type="text/javascript" src="/js/hot/din/hd_view.js"></script>
+<script type="text/javascript" src="/js/din/fdd/df_view.js"></script>
 
 <nav class="com_nv">
     <h1>FINE DINE&DRINK</h1>
@@ -31,12 +31,12 @@
     <article>
         <div>
             <ul class="hd_list">
-                <li><img src="/img/hot/din/onThePlate1.jpg" alt=""></li>
-                <li><img src="/img/hot/din/onThePlate2.jpg" alt=""></li>
-                <li><img src="/img/hot/din/onThePlate3.jpg" alt=""></li>
-                <li><img src="/img/hot/din/onThePlate4.jpg" alt=""></li>
-                <li><img src="/img/hot/din/onThePlate5.jpg" alt=""></li>
-                <li><img src="/img/hot/din/onThePlate6.jpg" alt=""></li>
+                <li><img src="/img/din/fdd/onThePlate1.jpg" alt=""></li>
+                <li><img src="/img/din/fdd/onThePlate2.jpg" alt=""></li>
+                <li><img src="/img/din/fdd/onThePlate3.jpg" alt=""></li>
+                <li><img src="/img/din/fdd/onThePlate4.jpg" alt=""></li>
+                <li><img src="/img/din/fdd/onThePlate5.jpg" alt=""></li>
+                <li><img src="/img/din/fdd/onThePlate6.jpg" alt=""></li>
             </ul>
         </div>
     </article>

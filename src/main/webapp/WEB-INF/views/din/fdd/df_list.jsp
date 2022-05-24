@@ -2,7 +2,7 @@
 <%@ taglib prefix="c"	uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" 	uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<link rel="stylesheet" href="/css/hot/din/hdList.css">
+<link rel="stylesheet" href="/css/din/fdd/dfList.css">
 
 <%-- HOTEL - DINING - Overview - List --%>
 
@@ -33,7 +33,7 @@
             <div class="hd_list_item">
                 <div class="hd_list_img">
                     <a href="#">
-                        <img src="/img/hot/din/onThePlate.jpg">
+                        <img src="/img/din/fdd/onThePlate.jpg">
                     </a>
                 </div>
                 <div class="hd_list_info">
@@ -49,7 +49,7 @@
             <div class="hd_list_item">
                 <div class="hd_list_img">
                     <a href="#">
-                        <img src="/img/hot/din/laScala.jpg">
+                        <img src="/img/din/fdd/laScala.jpg">
                     </a>
                 </div>
                 <div class="hd_list_info">
@@ -65,7 +65,7 @@
             <div class="hd_list_item">
                 <div class="hd_list_img">
                     <a href="#">
-                        <img src="/img/hot/din/raku.jpg">
+                        <img src="/img/din/fdd/raku.jpg">
                     </a>
                 </div>
                 <div class="hd_list_info">
@@ -80,7 +80,7 @@
             <div class="hd_list_item">
                 <div class="hd_list_img">
                     <a href="#">
-                        <img src="/img/hot/din/imperialTreasure.jpg">
+                        <img src="/img/din/fdd/imperialTreasure.jpg">
                     </a>
                 </div>
                 <div class="hd_list_info">
