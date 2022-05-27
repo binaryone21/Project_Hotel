@@ -19,7 +19,7 @@ public class DinFddController {
     /* Dining FineDining 목록조회 페이지 */
     @GetMapping("/din/fdd/dfList")
     public String dfList() {
-        return "din/fdd/df_list";
+        return "din/fdd/df_list.tiles";
     }
 
     /*  Dining FineDining 목록조회 Ajax */

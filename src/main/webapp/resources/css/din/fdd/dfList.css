@@ -16,12 +16,12 @@
 
 .com_nv li {
     float: left;
-    padding-right: 15px;
+    padding-right: 35px;
 }
 
 .com_nv a {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     color: #333;
 }
@@ -31,17 +31,17 @@
 }
 
 /* 컨텐츠 헤더 *********************************************/
-.hd_header {
+.df_header {
     margin: 50px 0;
 }
 
-.hd_header_title {
+.df_header_title {
     color: #A9836A;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.hd_header_sub {
+.df_header_sub {
     color: #666;
     font-size: 30px;
     font-weight: 100;
@@ -49,11 +49,11 @@
 }
 
 /* list css *********************************************/
-.hd_list {
+.df_list {
     margin-left: -10%
 }
 
-.hd_list_item {
+.df_list_item {
     margin: 20px 0;
     width: 35%;
     padding-left: 9%;
@@ -61,25 +61,25 @@
     vertical-align: middle;
 }
 
-.hd_list_img img{
+.df_list_img img{
     display: block;
 }
 
-.hd_list_info {
+.df_list_info {
     position: relative;
 }
 
-.hd_list_info_title {
+.df_list_info_title {
     color: #A9836A;
     font-size: 16px;
 }
 
-.hd_list_info_sub {
+.df_list_info_sub {
     color: #666;
     font-size: 14px;
 }
 
-.hd_list_info_btn {
+.df_list_info_btn {
     /*버튼 위치 옵션*/
     position: absolute;
     top: 0;
@@ -90,4 +90,11 @@
     text-decoration: none;
     padding: 15px;
     font-size: 14px;
+}
+
+.df_list_info_btn:hover {
+    color: #fff;
+    border-color: #8a7057;
+    background: #8a7057;
+    transition: all 0.5s ease;
 }

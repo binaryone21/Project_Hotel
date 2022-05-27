@@ -21,7 +21,7 @@
 
 .com_nv a {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     color: #333;
 }
@@ -31,17 +31,17 @@
 }
 
 /* 컨텐츠 헤더 *********************************************/
-.hd_header {
+.df_header {
     margin: 50px 0;
 }
 
-.hd_header_title {
+.df_header_title {
     color: #A9836A;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.hd_header_sub {
+.df_header_sub {
     color: #666;
     font-size: 30px;
     font-weight: 100;
@@ -49,7 +49,7 @@
 }
 
 /* 이미지 슬라이드 *********************************************/
-.hd_list {
+.df_list {
     position: relative;
     list-style: none;
     overflow: hidden;
@@ -58,7 +58,7 @@
     margin: 0;
 }
 
-.hd_list li {
+.df_list li {
     -webkit-backface-visibility: hidden;
     position: absolute;
     display: none;
@@ -67,13 +67,13 @@
     top: 0;
 }
 
-.hd_list li:first-child {
+.df_list li:first-child {
     position: relative;
     display: block;
     float: left;
 }
 
-.hd_list img {
+.df_list img {
     display: block;
     height: auto;
     float: left;
@@ -86,7 +86,7 @@
     float: left;
     width: 32px;
     height: 17px;
-
+    margin: 20px 0 0 20px;
 }
 
 .next {
@@ -94,4 +94,84 @@
     float: right;
     width: 32px;
     height: 17px;
+    margin: 20px 20px 0 0;
 }
+
+.df_list_tabs {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+
+.df_list_tabs li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #c6c6c6;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.df_list_here {
+    background-color: #9c836a !important;
+}
+
+.df_list_tabs li a {
+    color: rgba(255,255,255,0);
+    text-decoration: none;
+}
+
+.df_list_here li a {
+    color: #9c836a !important;
+}
+
+/* 슬라이드 내용 *********************************************/
+.df_list_info {
+    position: relative;
+    margin-top: 45px;
+}
+
+.df_list_info_title {
+    color: #A9836A;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+
+.df_list_info_subTitle {
+    color: #A9836A;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.df_btn_group {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.df_list_info_btn {
+    border: 1px solid #A9836A;
+    color: #A9836A;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.df_list_info_btn:hover {
+    color: #fff;
+    border-color: #8a7057;
+    background: #8a7057;
+    transition: all 0.5s ease;
+}
+
+.answer {
+    color: #fff;
+    background: #9c836a;
+}
+
+.answer:hover {
+    background: #8a7057;
+    transition: all 0.5s ease;
+}
+
+
