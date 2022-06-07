@@ -65,6 +65,11 @@
     width: 100%;
     left: 0;
     top: 0;
+    overflow: hidden;
+}
+
+.df_list li:hover img {
+    transform: scale(1.06);
 }
 
 .df_list li:first-child {
@@ -78,7 +83,9 @@
     height: auto;
     float: left;
     width: 100%;
+    max-width: 100%;
     border: 0;
+    transition: 0.45s;
 }
 
 .prev {
@@ -117,7 +124,7 @@
 }
 
 .df_list_tabs li a {
-    color: rgba(255,255,255,0);
+    color: rgba(255, 255, 255, 0);
     text-decoration: none;
 }
 
@@ -174,4 +181,99 @@
     transition: all 0.5s ease;
 }
 
+/* 상세정보 *********************************************/
+.df_list_detail {
+    position: relative;
+    margin-top: 45px;
+    border-top: 1px dotted #e6e3df;
+}
 
+.df_list_detail > table {
+    width: 100%;
+}
+
+.df_list_detail tr {
+    line-height: 25px;
+}
+
+.df_list_detail th {
+    text-align: left;
+    font-size: 16px;
+    color: #9c836a;
+}
+
+.df_list_detail td {
+    font-size: 14px;
+    color: #666;
+}
+
+/*.df_list_detail > dl {*/
+/*    float: left;*/
+/*    width: 250px;*/
+/*}*/
+
+/*.df_list_detail > dl > dd dt {*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.df_list_detail > dl > dd dd {*/
+/*    display: inline-block;*/
+/*}*/
+
+/* 요금안내 *********************************************/
+.df_list_charge table {
+    width: 100%;
+    border-top: 1px solid #9b8369;
+    border-bottom: 1px solid #9b8369;
+}
+
+.df_list_charge thead th {
+    font-size: 16px;
+    color: #9c836a;
+}
+
+.df_list_charge thead tr:first-child th:first-child:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 0;
+    background: #e6e3df;
+    width: 3px;
+    height: 55px;
+}
+
+.df_list_charge thead th {
+    position: relative;
+    height: 40px;
+}
+
+.df_list_charge thead th:before {
+
+}
+
+.df_list_charge thead th:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 0;
+    background: #e6e3df;
+    width: 3px;
+    height: 25px;
+}
+
+.df_list_charge tbody {
+    border-top: 1px solid #e6e2df;
+}
+
+.df_list_charge tbody th {
+    background: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.df_list_charge tbody td {
+    text-align: center;
+}
