@@ -226,6 +226,7 @@
     border-top: 1px solid #9b8369;
     border-bottom: 1px solid #9b8369;
     border-collapse: collapse;
+    margin: 20px 0 50px 0;
 }
 
 .df_list_charge thead th {
@@ -240,7 +241,7 @@
     top: 15px;
     right: 0;
     background: #e6e3df;
-    width: 3px;
+    width: 1px;
     height: 55px;
 }
 
@@ -257,7 +258,7 @@
     bottom: 0px;
     left: 5%;
     width: 90%;
-    height: 2px;
+    height: 1px;
 }
 
 .df_list_charge thead th:after {
@@ -267,7 +268,7 @@
     top: 8px;
     right: 0;
     background: #e6e3df;
-    width: 2px;
+    width: 1px;
     height: 25px;
 }
 
@@ -279,17 +280,44 @@
     border-top: 2px solid #e6e2df;
 }
 
+.df_list_charge thead tr:first-child th:first-child:before {
+    display: none;
+}
+
+.df_list_charge thead tr:last-child th:before {
+    display: none;
+}
+
 .df_list_charge tbody tr {
     border-top: 1px solid #f4f2ef;
+    height: 60px;
 }
 
 .df_list_charge tbody th {
     background: #f9f9f9;
     color: #333;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .df_list_charge tbody td {
+    position: relative;
     text-align: center;
 }
+
+.df_list_charge tbody td:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 19px;
+    right: 0;
+    background: #e6e3df;
+    width: 1px;
+    height: 25px;
+}
+
+.df_list_charge tbody td:last-child:after {
+    display: none;
+}
+
+/* 동영상 *********************************************/

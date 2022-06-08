@@ -193,4 +193,9 @@
             </table>
         </div>
     </article>
+
+    <%-- 동영상 --%>
+    <article>
+        <video class="df_list_video" poster=""></video>
+    </article>
 </section>
